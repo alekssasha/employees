@@ -3,23 +3,23 @@ import './app-filter.css';
 const AppFilter = () => {
     return (
         <div className="btn-group">
-            <buttun 
+            <button 
                 className="btn btn-light"
                 type="button">
                     Все сотрудники
-            </buttun>
+            </button>
 
-            <buttun 
+            <button 
                 className="btn btn-outline-light"
                 type="button">
                     На повышение
-            </buttun>
+            </button>
 
-            <buttun 
+            <button 
                 className="btn btn-outline-light"
                 type="button">
                     З/П больше 1000$
-            </buttun>
+            </button>
         </div>
     )
 }
